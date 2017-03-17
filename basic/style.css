@@ -318,6 +318,10 @@ button:hover,
   padding: 60px; 0 60px;
   border-radius: 20px 20px 0 0;
 }
+  /* Pages that aren't the index need a BG color */
+#main.page-bg {
+  background-color: #fff;
+}
 
 
  

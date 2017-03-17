@@ -91,7 +91,11 @@
 	<?php do_action( 'basic_after_header' ); ?>
 
 
+  <?php if ( is_home() ) { ?>
 	<div id="main" class="maxwidth clearfix">
+  <?php } else { ?>
+	<div id="main" class="maxwidth clearfix page-bg">
+  <?php } ?>
 
 
 		<!-- BEGIN content -->
