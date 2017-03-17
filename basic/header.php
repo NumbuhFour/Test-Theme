@@ -29,7 +29,9 @@
                 <?php }
 
                     do_action( 'basic_before_blogname_in_logo' );
-					bloginfo( 'name' );
+                  {?>
+					<img alt="<?php bloginfo('name'); ?>" src="<?php bloginfo('stylesheet_directory'); ?>/img/Toontown-logo-spun.png"/>
+                  <?php }
 					do_action( 'basic_after_blogname_in_logo' );
 
                 if ( is_home() ) { ?>

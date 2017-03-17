@@ -197,8 +197,22 @@ button:hover,
  * ============================================================================ */
 .sitetitle { text-align: center; }
 .logo { margin: 30px auto; }
-#logo { display: block; margin: 0; padding: 0; font: bold 60px/50px 'PT Serif', Tahoma, Verdana, Segoe, sans-serif; 
-	color: #936; text-decoration: none; letter-spacing: -0.02em; }
+#logo {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font: bold 60px/50px 'PT Serif', Tahoma, Verdana, Segoe, sans-serif; 
+  color: #936;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  position: relative;
+}
+#logo img {
+  position: relative;
+  left: -50px;
+  top: 100px;
+}
+
 #logo:hover { opacity: 0.9; }
 .sitedescription {/*text-align: center;*/padding-top: 10px;}
 /*body.wp-custom-logo #logo { display: none;}*/
