@@ -30,7 +30,8 @@
 
                     do_action( 'basic_before_blogname_in_logo' );
                   {?>
-					<img alt="<?php bloginfo('name'); ?>" src="<?php bloginfo('stylesheet_directory'); ?>/img/Toontown-logo-spun.png"/>
+					<img alt="<?php bloginfo('name'); ?>" src="<?php bloginfo('stylesheet_directory'); ?>/img/Toontown-logo-spun.png" class="web"/>
+					<img alt="<?php bloginfo('name'); ?>" src="<?php bloginfo('stylesheet_directory'); ?>/img/Toontown-logo.png" class="mobile"/>
                   <?php }
 					do_action( 'basic_after_blogname_in_logo' );
 
