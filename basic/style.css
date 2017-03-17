@@ -34,7 +34,7 @@ html { height: 100%; }
 body { width: 100%; min-width: 280px; background: #fff; }
 .wrapper { margin: 0 auto; }
 #header { min-height: 100px; background-repeat: no-repeat; background-position: top center; background-size: cover; background-color: transparent}
-#main { padding: 60px 0; margin: 0 auto; position: relative; }
+#main { padding: 0px 0; margin: 0 auto; position: relative; }
 #content { width: 100%; float: none; }
 #sidebar { display: none; }
 #sidebar.block{ display: block;}
@@ -308,6 +308,15 @@ button:hover,
 .screen-reader-text:focus{background-color:#f1f1f1;border-radius:3px;box-shadow:0 0 2px 2px rgba(0,0,0,0.6);
 	clip:auto!important;color:#21759b;display:block;font-size:14px;font-size:0.875rem;font-weight:bold;height:auto;
 	left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000;
+}
+
+#main-container {
+  position: relative;
+  left: -60px;
+  background-color: #fff;
+  width: 100%;
+  padding: 60px; 0 60px;
+  border-radius: 20px 20px 0 0;
 }
 
 
@@ -638,7 +647,7 @@ li.bbp-topic-freshness {
 	#mobile-menu { display: none; }
 	.topnav nav {display: block;}
 	.topnav {background: transparent;}
-	.top-menu { position: static; text-align: left; }
+	.top-menu { position: static; text-align: left; border-radius: 20px; }
 	.top-menu li { display: inline-block; position: relative; }
 	.top-menu li a { border-bottom: 0; font-weight: normal; color: #fff; -webkit-transition: background 0.3s; transition: background 0.3s; }
 	.top-menu > li:hover > a { background: rgba(255,255,255,0.3);  }
