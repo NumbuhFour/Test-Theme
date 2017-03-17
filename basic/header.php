@@ -74,7 +74,7 @@
 							<li class="page_item current_page_item"><span><?php _e( 'What\'s New', 'basic' ); ?></span></li>
 						<?php } else { ?>
 							<li class="page_item">
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php _e( 'Home', 'basic' ); ?></a>
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php _e( 'What\'s New', 'basic' ); ?></a>
 							</li>
 						<?php }
 						wp_list_pages( 'title_li=&depth=2' ); ?>
