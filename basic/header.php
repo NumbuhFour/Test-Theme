@@ -70,14 +70,7 @@
 					) );
 				else : ?>
 					<ul class="top-menu maxwidth clearfix">
-						<?php if ( is_front_page() ) { ?>
-							<li class="page_item current_page_item"><span><?php _e( 'What\'s New', 'basic' ); ?></span></li>
-						<?php } else { ?>
-							<li class="page_item">
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php _e( 'What\'s New', 'basic' ); ?></a>
-							</li>
-						<?php }
-						wp_list_pages( 'title_li=&depth=2' ); ?>
+						<?php wp_list_pages( 'title_li=&depth=2' ); ?>
 					</ul>
 				<?php endif; ?>
 			</nav>
@@ -91,7 +84,7 @@
 	<?php do_action( 'basic_after_header' ); ?>
 
 
-  <?php if ( is_home() ) { ?>
+  <?php if ( is_front_page() ) { ?>
 	<div id="main" class="maxwidth clearfix">
   <?php } else { ?>
 	<div id="main" class="maxwidth clearfix page-bg">

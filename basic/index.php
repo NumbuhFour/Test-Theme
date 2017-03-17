@@ -1,10 +1,6 @@
 <?php get_header(); ?>
 
 
-					<div id="jumbotron">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/liqNk78_6wk" frameborder="0" allowfullscreen></iframe>
-					</div>
-
 <div id="main-container" class="clearfix">
 	<main id="content">
 	<?php do_action( 'basic_main_content_inner_begin' ); ?>
