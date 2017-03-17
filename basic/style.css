@@ -33,7 +33,7 @@ object,embed,video{width:100%}img{height:auto;vertical-align:middle;border:0;-we
 html { height: 100%; }
 body { width: 100%; min-width: 280px; background: #fff; }
 .wrapper { margin: 0 auto; }
-#header { min-height: 100px; background-repeat: no-repeat; background-position: top center; background-size: cover; }
+#header { min-height: 100px; background-repeat: no-repeat; background-position: top center; background-size: cover; background-color: transparent}
 #main { padding: 60px 0; margin: 0 auto; position: relative; }
 #content { width: 100%; float: none; }
 #sidebar { display: none; }
@@ -617,7 +617,7 @@ li.bbp-topic-freshness {
 	#mobile-menu { display: none; }
 	.topnav nav {display: block;}
 	.topnav {background: transparent;}
-	.top-menu { position: static; text-align: center; }
+	.top-menu { position: static; text-align: left; }
 	.top-menu li { display: inline-block; position: relative; }
 	.top-menu li a { border-bottom: 0; font-weight: normal; color: #fff; -webkit-transition: background 0.3s; transition: background 0.3s; }
 	.top-menu > li:hover > a { background: rgba(255,255,255,0.3);  }
@@ -642,6 +642,8 @@ li.bbp-topic-freshness {
 	.top-menu .page_item_has_children> a, .top-menu .page_item_has_children> span {
 		padding-right: 40px;
 	}
+
+	.top-menu li:first-child { margin-left: 240px; }
 	
 }
 

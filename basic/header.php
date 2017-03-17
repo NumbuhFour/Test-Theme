@@ -70,7 +70,7 @@
 				else : ?>
 					<ul class="top-menu maxwidth clearfix">
 						<?php if ( is_front_page() ) { ?>
-							<li class="page_item current_page_item"><span><?php _e( 'Home', 'basic' ); ?></span></li>
+							<li class="page_item current_page_item"><span><?php _e( 'What\'s New', 'basic' ); ?></span></li>
 						<?php } else { ?>
 							<li class="page_item">
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php _e( 'Home', 'basic' ); ?></a>
